@@ -24,8 +24,18 @@
       <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="107">
               <caret line="598" column="46" selection-start-line="598" selection-start-column="46" selection-end-line="598" selection-end-column="46" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="253">
+              <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+=======
+            <state relative-caret-position="361">
+              <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
               <folding>
                 <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,8 +71,18 @@
       <file leaf-file-name="video.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/video.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1596">
               <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="391">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+=======
+            <state relative-caret-position="182">
+              <caret line="704" column="10" selection-start-line="704" selection-start-column="5" selection-end-line="704" selection-end-column="10" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -71,9 +91,51 @@
       <file leaf-file-name="section.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/section.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="729">
               <caret line="119" column="1" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
               <folding />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="255">
+              <caret line="134" column="14" lean-forward="false" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+=======
+            <state relative-caret-position="213">
+              <caret line="142" column="17" selection-start-line="96" selection-start-column="12" selection-end-line="142" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sectionin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sectionin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+              <folding>
+                <element signature="n#ul#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="南方公园第二十季 第6话丨嘀哩嘀哩.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../html/南方公园第二十季 第6话丨嘀哩嘀哩.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56096">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1489076725050" expanded="true" signature="108391:108584" ph="{...}" />
+              </folding>
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
@@ -81,8 +143,14 @@
       <file leaf-file-name="section.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="346">
               <caret line="112" column="47" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="47" />
+=======
+            <state relative-caret-position="361">
+              <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -90,12 +158,19 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>最新</find>
+    </findStrings>
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
       </list>
     </option>
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -280,17 +355,32 @@
       <workItem from="1488604487764" duration="4287000" />
       <workItem from="1488680496473" duration="462000" />
       <workItem from="1488846636586" duration="27000" />
+<<<<<<< HEAD
+      <workItem from="1489050117085" duration="462000" />
+=======
       <workItem from="1489057736822" duration="2021000" />
       <workItem from="1489069292379" duration="8450000" />
+<<<<<<< HEAD
       <workItem from="1489115072382" duration="3773000" />
       <workItem from="1489125357546" duration="3307000" />
       <workItem from="1489132664003" duration="3294000" />
       <workItem from="1489136810187" duration="2673000" />
+=======
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="28294000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="5238000" />
+=======
+    <option name="totallyTimeSpent" value="15247000" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,8 +780,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/css/sectionin.css" />
     <entry file="file://$PROJECT_DIR$/resources/css/home.css">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/flat-ui-2.2.2-dist/css/flat-ui.css">
+=======
+    <entry file="file://$PROJECT_DIR$/search.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="72" column="6" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="6" />
@@ -699,6 +796,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/flat-ui-2.2.2-dist/css/flat-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13376">
@@ -728,6 +826,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../html/南方公园第二十季 第6话丨嘀哩嘀哩.html">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/css/sectionin.css">
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -755,17 +857,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/bootstrap3/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="201">
           <caret line="4" column="85061" selection-start-line="4" selection-start-column="85061" selection-end-line="4" selection-end-column="85061" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="391">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+=======
+        <state relative-caret-position="182">
+          <caret line="704" column="10" selection-start-line="704" selection-start-column="5" selection-end-line="704" selection-end-column="10" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="134" column="14" lean-forward="false" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/comment.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="192">
           <caret line="10774" column="0" selection-start-line="10774" selection-start-column="0" selection-end-line="10774" selection-end-column="0" />
           <folding />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="253">
+          <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+=======
+        <state relative-caret-position="361">
+          <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+>>>>>>> 57a0f75a4b96c1b846184c6e4b19995c15dde3a1
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
