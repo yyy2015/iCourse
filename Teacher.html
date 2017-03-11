@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content="">
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./resources/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./resources/flat-ui-2.2.2-dist/css/flat-ui.min.css"/>
+    <link rel="stylesheet" href="./resources/css/home.css"/>
+
+    <title>iCourse 全球最好的网课平台</title>
+    <style>
+        .footer { margin:0px; background-color: #2a2a2a; text-align: center;padding:30px;margin-top:40px; clear: both;}
+        .footer_nav_out {display:inline-block;border-bottom: 1px solid #4d4d4d;padding:0px 50px;}
+        .footer_nav { display: inline-block; color: #9e9e9e;padding:10px 50px; vertical-align: top;}
+        .footer_nav li{ font-size: 14px;text-align: left;line-height: 30px;}
+        .footer_nav li a{ color: #9e9e9e;}
+        .footer_nav li a:hover{ opacity: .9;}
+        .footer_nav .title{ font-size: 18px;}
+        .footer .copyright { color: #787878;font-size: 12px;margin-top: 30px;}
+        .footer .copyright img { margin-left:6px;margin-right:6px;margin-top:-10px;}
+        .footer .copyright span { color: #57dfc7;}
+        .footer .copyright span.phone_large { font-size: 20px;}
+        ul,ol{list-style: none;margin:0;padding:0}
+        .navbar{
+            margin-bottom: 0px;
+        }
+        .background-gradient{
+            background:-webkit-linear-gradient(90deg, rgb(21, 37, 53),rgb(60, 175, 170));
+            background:linear-gradient(90deg, rgb(21, 37, 53),rgb(60, 175, 170));
+        }
+        .content-title-1{
+            padding:15px 0px 10px;
+            font-size:16px;
+            border-bottom:1px solid #d7dee0;
+        }
+        .tips{
+            color:#ff0000;
+        }
+        .pagination-self>ul{display: inline-block;margin-top:20px;}
+        .pagination-self>ul>li{display: inline-block;margin:0px 8px 0px 0px;}
+        .pagination-self>ul>li>a{font-size:17px;display: inline-block;color:#bbb;padding:1px 8px;font-family: "Arial";}
+        .pagination-self>ul>li>a:active,.pagination-self>ul>li>a:hover{color:#fff;background-color: #00d3d4}
+        .pagination-self>ul>li>a.active{color:#fff;background-color: #00d3d4}
+        .content-1-div-1{
+            padding:0 0;
+        }
+        .content-1-div-2{
+            padding:0;
+        }
+        .content-1-div-2>ul>li>h6,p{
+
+            margin:0;padding:0;font-weight: normal;line-height:1;
+        }
+        .content-1-div-2>ul>li{
+
+            padding:0px 0px 0px 15px;;
+        }
+        .content-1-div-2>ul>li>h6{
+            color:#000000;
+            font-size:16px;
+            margin-bottom: 10px;
+        }
+        .content-1-div-2>ul>li>p{
+            width:615px;
+            text-overflow:ellipsis;
+            overflow:hidden;
+            line-height: 24px;
+            max-height:48px;
+            text-overflow:ellipsis;
+
+        }
+        .p1{
+            font-size:15px;
+            color:#777;
+            height:48px;
+        }
+        .search-strong{
+            color:#00d3d4;
+        }
+        .p2{
+            color:#969696;
+            font-size:15px;
+        }
+        .p3{
+            color:#ff0000;
+            font-size:15px;
+        }
+        .content{
+            overflow:hidden;border-bottom:1px solid #d7dee0;padding-bottom:27px;padding-top:27px;
+        }
+        .content:last-child{
+            overflow:hidden;padding-bottom:20px;border:none
+        }
+        .list-inline>li{
+            margin-bottom:8px;
+        }
+        .list-inline>li>a{
+            border:1px solid #ddd;padding:2px 15px;background-color: #fff;color:#969696;border-radius:16px;font-size:14px;
+        }
+    </style>
+</head>
+<body>
+<nav role="navigation" class="navbar navbar-default" style="font-size:15px !important;">
+    <div class="navbar-header" style="margin-right:5%;margin-left:5%;">
+        <a href="#"><h4 style="color:gray">iCourse</h4></a>
+    </div>
+    <div class="collapse navbar-collapse" style="margin-right:5%">
+        <ul class="nav navbar-nav" style="margin-right:5%">
+            <li class="active">
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">课程</a>
+            </li>
+            <li>
+                <a href="#">计划</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">登录</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+        </ul>
+        <form role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" placeholder="搜索" class="form-control" style="width: 400px">
+            </div>
+            <button class="btn btn-default" type="button">搜索</button>
+        </form>
+    </div>
+</nav>
+
+<div id="head">
+    <div class="row">
+        <div class="col-lg-6 title-div">
+            <h3 class="title-color">我开设的所有课程：</h3>
+        </div>
+    </div>
+    <div class="row row-nav-margin">
+
+        <div class="col-xs-12 col-md-6">
+            <a href="#" class="pull-right button-self">开始学习</a>
+        </div>
+    </div>
+</div>
+
+<div class="page" id="all_course">
+    <div class="container">
+        <div class="row">
+            <div class="content-title">
+                <span>全部课程</span>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="content-label">
+                <span class="content-label-span">分类</span>
+                <ul>
+                    <li>
+                        <a class="active" href="#">全部</a>
+                    </li>
+                    <li>
+                        <a href="free.html">正在进行</a>
+                    </li>
+                    <li>
+                        <a href="pay.html">已结束</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <ul >
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img data-src="holder.js/100%x120" >
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                   CSS的未来
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半
+                                </p>
+                                <p class="p2">
+                                    开课时间：2016-10-10--2016-12-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <a href="#" class=" button-self">课程管理</a>
+
+                                <a href="#" class=" button-self">作业管理</a>
+                                <a href="#" class=" button-self">直播授课</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img data-src="holder.js/100%x120" >
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    CSS的未来
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半
+                                </p>
+                                <p class="p2">
+                                    开课时间：2016-10-10--2016-12-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <a href="#" class=" button-self">课程管理</a>
+
+                                <a href="#" class=" button-self">作业管理</a>
+                                <a href="#" class=" button-self">直播授课</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img data-src="holder.js/100%x120" >
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    CSS的未来
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半
+                                </p>
+                                <p class="p2">
+                                    开课时间：2016-10-10--2016-12-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <a href="#" class=" button-self">课程管理</a>
+
+                                <a href="#" class=" button-self">作业管理</a>
+                                <a href="#" class=" button-self">直播授课</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img data-src="holder.js/100%x120" >
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    CSS的未来
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半
+                                </p>
+                                <p class="p2">
+                                    开课时间：2016-10-10--2016-12-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <a href="#" class=" button-self">课程管理</a>
+
+                                <a href="#" class=" button-self">作业管理</a>
+                                <a href="#" class=" button-self">直播授课</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img data-src="holder.js/100%x120" >
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    CSS的未来
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半 课程简介：本课程从最基本的概念开始讲起，步步深入，带领大家学习HTML、CSS样式基础知识，了解各种常用标签的意义以及基本用法，后半
+                                </p>
+                                <p class="p2">
+                                    开课时间：2016-10-10--2016-12-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <a href="#" class=" button-self">课程管理</a>
+
+                                <a href="#" class=" button-self">作业管理</a>
+                                <a href="#" class=" button-self">直播授课</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="pagination-self">
+                <ul>
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">上一页</a>
+                    </li>
+                    <li >
+                        <a href="#" class="active">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">6</a>
+                    </li>
+                    <li>
+                        <a href="#">7</a>
+                    </li>
+                    <li>
+                        <a href="#">下一页</a>
+                    </li>
+                    <li>
+                        <a href="#">尾页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--<div class="row broadcast_div">-->
+        <!--<div class="content-divider">-->
+        <!--<a href="#" class="active">当前直播</a>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="row">-->
+        <!--<div class="col-xs-6 col-md-3 edit">-->
+        <!--<a class="thumbnail" href="#">-->
+        <!--<img src="./resources/images/course1.jpg">-->
+        <!--<div class="caption">-->
+        <!--<h6>机器学习</h6>-->
+        <!--<h6   class="subhead">本课程将广泛介绍机器学习、数据挖掘和统计模式识别。</h6>-->
+        <!--<span class="subhead-titie">未学习</span>-->
+        <!--<div class="pull-right">-->
+        <!--<span class="glyphicon glyphicon-user subhead-content"></span>-->
+        <!--<span class="subhead-content">3141人学习</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+
+<div class="jumbotron footer">
+    <p class="copyright"><span>Copyright &copy; iCourse 2017.</span></p>
+</div>
+<script src="./resources/flat-ui-2.2.2-dist/js/vendor/jquery.min.js"></script>
+<script src="./resources/bootstrap3/js/bootstrap.min.js"></script>
+<script src="./resources/flat-ui-2.2.2-dist/js/flat-ui.min.js"></script>
+</body>
+</html>
