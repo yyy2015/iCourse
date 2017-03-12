@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content="">
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./resources/bootstrap3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./resources/flat-ui-2.2.2-dist/css/flat-ui.min.css"/>
+    <link rel="stylesheet" href="./resources/css/home.css"/>
+    <link rel="stylesheet" href="./resources/css/section.css"/>
+    <link rel="stylesheet" href="resources/css/video.css">
+    <title>liveDetail</title>
+    <style>
+        .footer { margin:0px; background-color: #2a2a2a; text-align: center;padding:30px;margin-top:40px; clear: both;}
+        .footer_nav_out {display:inline-block;border-bottom: 1px solid #4d4d4d;padding:0px 50px;}
+        .footer_nav { display: inline-block; color: #9e9e9e;padding:10px 50px; vertical-align: top;}
+        .footer_nav li{ font-size: 14px;text-align: left;line-height: 30px;}
+        .footer_nav li a{ color: #9e9e9e;}
+        .footer_nav li a:hover{ opacity: .9;}
+        .footer_nav .title{ font-size: 18px;}
+        .footer .copyright { color: #787878;font-size: 12px;margin-top: 30px;}
+        .footer .copyright img { margin-left:6px;margin-right:6px;margin-top:-10px;}
+        .footer .copyright span { color: #57dfc7;}
+        .footer .copyright span.phone_large { font-size: 20px;}
+        ul,ol{list-style: none;margin:0;padding:0}
+        .navbar{
+            margin-bottom: 0px;
+        }
+        .background-gradient{
+            background:-webkit-linear-gradient(90deg, rgb(21, 37, 53),rgb(60, 175, 170));
+            background:linear-gradient(90deg, rgb(21, 37, 53),rgb(60, 175, 170));
+        }
+        .content-title-1{
+            padding:15px 0px 10px;
+            font-size:16px;
+            border-bottom:1px solid #d7dee0;
+        }
+        .tips{
+            color:#ff0000;
+        }
+        .pagination-self>ul{display: inline-block;margin-top:20px;}
+        .pagination-self>ul>li{display: inline-block;margin:0px 8px 0px 0px;}
+        .pagination-self>ul>li>a{font-size:17px;display: inline-block;color:#bbb;padding:1px 8px;font-family: "Arial";}
+        .pagination-self>ul>li>a:active,.pagination-self>ul>li>a:hover{color:#fff;background-color: #00d3d4}
+        .pagination-self>ul>li>a.active{color:#fff;background-color: #00d3d4}
+        .content-1-div-1{
+            padding:0 0;
+        }
+        .content-1-div-2{
+            padding:0;
+        }
+        .content-1-div-2>ul>li>h6,p{
+
+            margin:0;padding:0;font-weight: normal;line-height:1;
+        }
+        .content-1-div-2>ul>li{
+
+            padding:0px 0px 0px 15px;;
+        }
+        .content-1-div-2>ul>li>h6{
+            color:#000000;
+            font-size:16px;
+            margin-bottom: 10px;
+        }
+        .content-1-div-2>ul>li>p{
+            width:615px;
+            text-overflow:ellipsis;
+            overflow:hidden;
+            line-height: 24px;
+            max-height:48px;
+            text-overflow:ellipsis;
+
+        }
+        .p1{
+            font-size:15px;
+            color:#777;
+            height:48px;
+        }
+        .search-strong{
+            color:#00d3d4;
+        }
+        .p2{
+            color:#969696;
+            font-size:15px;
+        }
+        .p3{
+            color:#ff0000;
+            font-size:15px;
+        }
+        .content{
+            overflow:hidden;border-bottom:1px solid #d7dee0;padding-bottom:27px;padding-top:27px;
+        }
+        .content:last-child{
+            overflow:hidden;padding-bottom:20px;border:none
+        }
+        .list-inline>li{
+            margin-bottom:8px;
+        }
+        .list-inline>li>a{
+            border:1px solid #ddd;padding:2px 15px;background-color: #fff;color:#969696;border-radius:16px;font-size:14px;
+        }
+    </style>
+</head>
+
+<body>
+<nav role="navigation" class="navbar navbar-default" style="font-size:15px !important;">
+    <div class="navbar-header" style="margin-right:5%;margin-left:5%;">
+        <a href="#"><h4 style="color:gray">iCourse</h4></a>
+    </div>
+    <div class="collapse navbar-collapse" style="margin-right:5%">
+        <ul class="nav navbar-nav" style="margin-right:5%">
+            <li >
+                <a href="main.html">首页</a>
+            </li>
+            <li>
+                <a href="live.html">直播</a>
+            </li>
+            <li>
+                <a href="#">教师</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">登录</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<div class="background-gradient">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>正在直播：</li>
+                <li>软件学院教授</li>
+                <li>陈振宇</li>
+            </ol>
+        </div>
+        <div class="row padding ">
+            <h4>软件工程<small> 软件系统测试 </small></h4>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style=";padding-right:15px;">
+            <video width="100%" height="100%" controls style="margin-top: 50px;">
+                <source src="./resources/videos/test.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="content-title-1">
+                <li>
+                    相关课程
+                </li>
+            </ul>
+            <ul >
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img src="resources/images/live/live_detail1.png">
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    软件测试之安全测试SecurityTesting
+                                </h6>
+                                <p class="p1">
+                                    课程简介：软件安全测试是软件测试过程中一个长期重要的课题，
+                                    本课程针对软件安全问题，从不同方面入手，进行security testing的相关授课。
+                                </p>
+                                <p class="p2">
+                                    上传时间：2015-07-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <p class="p3">
+                                    <span>
+                                    未学习
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img src="resources/images/live/live_detail2.png">
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    软件测试实战
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程总结了讲师（史亮）从事软件测试研究与实践的多年经验，多角度地讨论了测试人员的实际工作，
+                                    包括测试价值观、缺陷管理、测试建模、测试设计、测试文 档、测试开发、产品研究、项目研究、团队协作等。
+                                </p>
+                                <p class="p2">
+                                    上传时间：2016-09-08&nbsp;|&nbsp;&nbsp;&nbsp;难度：中级
+                                </p>
+                                <p class="p3">
+                                    <span>
+                                    未学习
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img src="resources/images/live/live_detail3.png">
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    软件测试管理-测试管理的奥秘
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程讲述CMMI定义、内容及思想。介绍了配置管理的基本概念、内容、工具与配置管理活动中涉及的一些角色与职务，
+                                    重点分析配置管理过程中的一些基本活动。
+                                </p>
+                                <p class="p2">
+                                    上传时间：2016-06-12&nbsp;|&nbsp;&nbsp;&nbsp;难度：中级
+                                </p>
+                                <p class="p3">
+                                    <span>
+                                    未学习
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img src="resources/images/live/live_detail4.png">
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    软件测试工具-SVN+TestLink+Mantis
+                                </h6>
+                                <p class="p1">
+                                    课程简介：软件测试知识补强”是指培养读者在搭建测试环境、部署测试程序、版本管理、测试用例管理、缺陷管理等方面的能力，
+                                    具备企业初级测试工程师知识和技能，使用“技术专题”引导和掌握相关重要基础知识和实践测试经验。
+                                </p>
+                                <p class="p2">
+                                    上传时间：2016-10-23&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <p class="p3">
+                                    <span>
+                                    未学习
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content">
+                    <div class="col-md-3 content-1-div-1">
+                        <img src="resources/images/live/live_detail5.png">
+                    </div>
+                    <div class="col-md-9 content-1-div-2">
+                        <ul>
+                            <li>
+                                <h6>
+                                    软件测试执行篇
+                                </h6>
+                                <p class="p1">
+                                    课程简介：本课程从基础方面介绍软件测试的对象、原则、类型，列举一些软件测试的工具。
+                                    阐述软件工程的定义、发展史、基本内容并展示划分的软件生命周期。通过对测试用例的定义、作用、分类、属性等的描述来介绍用例。
+                                    并介绍测试环境的定义、分类、测试环境的组成与环境部署方法，介绍软件缺陷的定义与属性、软件缺陷的级别划分与软件缺陷编写的原则。
+                                </p>
+                                <p class="p2">
+                                    上传时间：2015-08-10&nbsp;|&nbsp;&nbsp;&nbsp;难度：初级
+                                </p>
+                                <p class="p3">
+                                    <span>
+                                    未学习
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="jumbotron footer">
+        <p class="copyright"><span>Copyright &copy; iCourse 2017.</span></p>
+    </div>
+    <script src="./resources/flat-ui-2.2.2-dist/js/vendor/jquery.min.js"></script>
+    <script src="./resources/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="./resources/flat-ui-2.2.2-dist/js/flat-ui.min.js"></script>
+</div>
+</body>
+</html>
